@@ -1,0 +1,531 @@
+.Pages a {
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+.currentPage {
+  color: azure !important;
+  font-size: x-large;
+}
+
+.newheder{
+  text-align: center;
+  font-size: 18px;
+  line-height: 300%;
+  font-weight: 700;
+  color: antiquewhite;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.center_form {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  padding: 10px 0;
+  color: #ddd;
+}
+
+.login {
+  text-align: center;
+  font-size: 16px;
+  line-height: 200%;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 35px;
+}
+.login a {
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+  display: inline-block;
+  text-align: center;
+  /* padding: 10px; */
+}
+
+.margin {
+  margin-right: 7%;
+}
+
+.wybrane {
+  padding: 10px;
+}
+
+.box {
+  cursor: pointer;
+}
+
+.checkbox:hover {
+  color: white;
+}
+body {
+  margin: 0;
+  background-color: rgb(38, 65, 129);
+  color: #dedede;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+}
+
+.naglowek {
+  color: #ddd;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+h1.naglowek {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin: 25px;
+  margin-bottom: 0px;
+  position: relative;
+  z-index: 100;
+}
+
+h3.naglowek {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  text-align: center;
+}
+#przywitanie {
+  text-align: center;
+  font-size: 18px;
+  line-height: 300%;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+#przycisk,
+#wynik {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  padding: 10px 0;
+  color: #ddd;
+}
+
+#przycisk {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #222222;
+}
+
+/* #przycisk:hover {
+  background-color: #000000;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+} */
+
+#center {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.logoimg {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nawigacja {
+  /* margin-top: 20px; */
+  padding-bottom: 10px;
+  padding-top: 5px;
+  background-color: azure;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 300%;
+  font-weight: 700;
+}
+
+ul a {
+  text-decoration: none;
+  color: #162e58;
+  display: block;
+}
+
+ul > li:hover {
+  background-color: #162e58;
+}
+ul > li#first-child:hover {
+  padding-bottom: 69px;
+}
+
+ul > li:hover > a {
+  color: azure;
+}
+
+ul > li > ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  display: none;
+}
+
+ul > li:hover > ol {
+  display: block;
+}
+
+ul > li > ol > li {
+  background-color: #162e58;
+  position: relative;
+  z-index: 1;
+  border-top: 1px dotted azure;
+}
+
+ul > li > ol > li > a {
+  color: azure;
+}
+
+ul > li > ol > li:hover {
+  background-color: azure;
+}
+
+ul > li > ol > li:hover > a {
+  color: #162e58;
+}
+
+ul > li.active {
+  background-color: #dedede;
+}
+
+#wpisy {
+  background-color: #162e58;
+  padding-top: 1px;
+}
+
+.pojedynczyWpis {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.obrazkiWpis {
+  text-align: justify;
+  background-color: rgb(28, 65, 129);
+}
+
+.obrazkiWpis > div > img {
+  width: 100%;
+}
+
+p.rozgrywki {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  color: black;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  border: 3px solid #162e58;
+}
+
+.przycisk {
+  float: right;
+  background-color: #222222;
+  margin-right: 2px;
+  color: #ddd;
+}
+
+.zespol1::before {
+  content: url(/img/Liv.jpg);
+}
+
+.zespol2::before {
+  content: url(/img/Tote.jpg);
+}
+
+.zespol4::before {
+  content: url(/img/AC-Milan-Logo.png);
+}
+
+.zespol5::before {
+  content: url(/img/barca.png);
+}
+
+.zespol6::before {
+  content: url(/img/juve.jpg);
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+footer {
+  background-color: #112547;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #b12739;
+}
+
+button {
+  background-color: #112547;
+  color: azure;
+}
+
+.galeria {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  background-image: url(/img/ucl-bg-header.jpg);
+  background-size: contain;
+  text-align: center;
+}
+
+figure img {
+  width: 100%;
+}
+
+figure p.rozgrywki {
+  color: azure;
+}
+
+figcaption {
+  color: white;
+  font-weight: 700;
+}
+
+.przepelnienie {
+  overflow: hidden;
+}
+
+.przepelnienie a {
+  color: red;
+}
+
+.przepelnienie img {
+  transition: all 0.5s ease-in-out;
+}
+
+.przepelnienie:hover img {
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  h1.naglowek {
+    font-size: 38px;
+  }
+
+  #przycisk,
+  #wynik {
+    font-size: 14px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+    padding: 5px 0;
+    color: #ddd;
+  }
+
+  .logoimg > img {
+    width: 40%;
+    position: relative;
+    animation-name: lewoprawo;
+    animation-duration: 3s;
+    animation-timing-function: inherit;
+    animation-delay: 1s;
+    animation-iteration-count: initial;
+    animation-direction: alternate;
+    animation-play-state: running;
+  }
+
+  @keyframes lewoprawo {
+    0% {
+      top: 0px;
+    }
+    25% {
+      top: -30px;
+    }
+    50% {
+      top: 10px;
+    }
+    75% {
+      top: -10px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+
+  ul > li {
+    border-bottom: 1px dotted #162e58;
+  }
+
+  ul > li:first-child {
+    border-top: 1px dotted #162e58;
+  }
+
+  .zaczynajmy {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    text-align: justify;
+    padding: 0;
+  }
+
+  .naglowek {
+    font-size: 20px;
+  }
+
+  p.rozgrywki {
+    font-size: 14px;
+  }
+
+  .obrazkiWpis {
+    padding: 20px;
+  }
+
+  .pojedynczyWpis {
+    width: 85%;
+  }
+
+  .informacje {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding: 5px;
+  }
+
+  figure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+  }
+  table {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sticky {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .logoimg > img {
+    width: 25%;
+    position: relative;
+    animation-name: lewoprawo;
+    animation-duration: 2s;
+    animation-timing-function: inherit;
+    animation-delay: 1s;
+    animation-iteration-count: initial;
+    animation-direction: alternate;
+    animation-play-state: running;
+  }
+
+  @keyframes lewoprawo {
+    0% {
+      top: 0px;
+    }
+    25% {
+      top: -40px;
+    }
+    50% {
+      top: 25px;
+    }
+    75% {
+      top: -5px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+
+  ul > li {
+    float: left;
+    width: 200px;
+    height: 55px;
+    border-right: 1px dotted #162e58;
+  }
+
+  ul > li:first-child {
+    border-left: 1px dotted #162e58;
+  }
+
+  ul {
+    display: inline-block;
+    height: 45px;
+  }
+
+  .zaczynajmy {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: justify;
+    padding: 0;
+  }
+
+  .naglowek {
+    font-size: 30px;
+  }
+
+  p.rozgrywki {
+    font-size: 14px;
+  }
+
+  .obrazkiWpis {
+    padding: 40px;
+  }
+
+  h5 {
+    font-size: 24px;
+  }
+
+  .pojedynczyWpis {
+    width: 70%;
+  }
+
+  .informacje {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 8px;
+  }
+
+  figure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+    float: left;
+    padding-left: 12%;
+  }
+  .czyszczenie {
+    clear: both;
+  }
+}
